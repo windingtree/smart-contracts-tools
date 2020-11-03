@@ -1,5 +1,5 @@
-# smart-contracts-tools
-Tools for bulk deployment, upgrade and interaction with smart contracts
+# WindingTree Contracts Management CLI tools
+This CLI is dedicated to the deployment of the new contracts instances, managing upgrades, sending transactions and calling of the contracts functions.
 
 > All commands are require proper network configuration in the `truffle.js` file
 
@@ -8,7 +8,7 @@ Tools for bulk deployment, upgrade and interaction with smart contracts
 Before the first use of the CLI run this command
 
 ```bash
-npm i @windingtree/smart-contracts-tools -g
+npm link
 ```
 
 ## Commands
@@ -26,7 +26,7 @@ Usage: `orgid-tools --network <NETWORK_NAME> cmd=<COMMAND> <PARAMETERS>`
 
 Usage: `cmd=version`
 
-Prints the current Openzeppelin project version.
+Prints the current package version.
 
 ## makehash
 
