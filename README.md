@@ -5,8 +5,6 @@ Tools for bulk deployment, upgrade and interaction with smart contracts
 
 ## Get Starting
 
-Before the first use of the CLI run this command
-
 ```bash
 npm i @windingtree/smart-contracts-tools -g
 ```
