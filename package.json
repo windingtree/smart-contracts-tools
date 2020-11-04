@@ -1,6 +1,6 @@
 {
   "name": "@windingtree/smart-contracts-tools",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tools for bulk deployment, upgrade and interaction with smart contracts",
   "bin": {
     "tools": "src/index.js"

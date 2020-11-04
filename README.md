@@ -6,7 +6,15 @@ Tools for bulk deployment, upgrade and interaction with smart contracts
 ## Get Starting
 
 ```bash
-npm i @windingtree/smart-contracts-tools -g
+npm i -g @windingtree/smart-contracts-tools
+```
+
+## Usage:
+
+All commands must be executed from the root of the smart contract repository
+
+```bash
+tools --network <NETWORK_NAME> cmd=<COMMAND> <PARAMETERS>
 ```
 
 ## Commands
@@ -17,8 +25,6 @@ npm i @windingtree/smart-contracts-tools -g
   - [tx](#tx)
   - [call](#call)
   - [task](#task)
-
-Usage: `orgid-tools --network <NETWORK_NAME> cmd=<COMMAND> <PARAMETERS>`
 
 ## version
 

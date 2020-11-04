@@ -4,10 +4,6 @@ logs
 npm-debug.log*
 .node-xmlhttprequest-sync-[0-9]*
 
-# Compiled
-build
-index.js
-
 # Dependency directories
 node_modules
 
